@@ -39,7 +39,8 @@ nav {
     text-decoration: none;
     margin: 0 auto;
 }
-nav label{
+
+nav label {
     display: none;
 }
 
@@ -767,12 +768,13 @@ footer p {
         display: block;
         font-size: 1.1em;
         font-weight: bold;
-        color:#4D5AE5;
+        color: #4D5AE5;
     }
-    nav label:hover{
+
+    nav label:hover {
         color: #2E2F42;
     }
-    
+
 
     .page-menu-list,
     .page-link,
@@ -786,7 +788,7 @@ footer p {
         top: 72px;
         right: 0px;
         padding-right: 10px;
-        background-color:#E7E9FC;
+        background-color: #E7E9FC;
         border-bottom-left-radius: 10px;
 
         z-index: 1002;
@@ -795,12 +797,12 @@ footer p {
     .page-menu-list li {
         padding: 10px;
         font-size: 18px;
-        
+
         margin-bottom: 10px;
     }
 
     .page-menu-list li a {
-        color:#2E2F42;
+        color: #2E2F42;
 
     }
 
@@ -969,6 +971,10 @@ footer p {
     .page-link {
         display: flex;
         flex-direction: column;
+    }
+
+    .page-link li a:hover::after {
+        bottom: 0px;
     }
 
     .section-info .icon-box {
