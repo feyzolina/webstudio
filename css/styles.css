@@ -138,7 +138,7 @@ nav {
     bottom: -22px;
 }
 
-.icon-menu{
+.icon-menu {
     display: none;
 }
 
@@ -970,11 +970,10 @@ footer p {
         box-sizing: border-box;
         display: flex;
         justify-content: center;
-        padding: 150px 150px;
+        padding-left: calc(190px + 10%);
+        padding-right: calc(190px + 10%);
     }
-    .footer-container{
-        padding-left: calc(90px + 5%);
-    }
+
     .footer-row {
         display: flex;
         flex-wrap: wrap;
