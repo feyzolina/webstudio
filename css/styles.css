@@ -975,6 +975,7 @@ footer p {
 
     .page-link li a:hover::after {
         bottom: 0px;
+        
     }
 
     .section-info .icon-box {
